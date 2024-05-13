@@ -5,6 +5,7 @@ body {
     background-image: url('bg.jpg'); /* replace 'bg.jpg' with your background image file */
     background-size: cover;
     background-position: center;
+    color: #333; /* Change text color to a dark shade for better visibility */
 }
 
 .container {
@@ -23,12 +24,10 @@ h1 {
 }
 
 h2 {
-    color: #fff;
     border-bottom: 2px solid #fff;
     padding-bottom: 5px;
 }
 
 p {
-    color: #fff;
     line-height: 1.5;
 }
