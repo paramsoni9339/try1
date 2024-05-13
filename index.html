@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Param soni</title>
+
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<meta property="og:title" content="Param Thakkar" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://www.param.me/assets/img/profile-pic.png" />
+<meta property="og:description" content="I'm an enthusiastic student who likes to tinker with computers, and this site is sorta like a showcase of my projects and achievements." />
+<meta name="description" content="I'm an enthusiastic student who likes to tinker with computers, and this site is sorta like a showcase of my projects and achievements." />
+
+<meta name="google-site-verification" content="F5d76HbKwxqSA5Uk1SvxOe-lGGJ4SKKocfZR1rCG-ic" />
+ <link rel="apple-touch-icon" sizes="180x180" href="https://www.param.me/assets/favicon/apple-touch-icon.png?v=bOMbqXqrgO" />
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.param.me/assets/favicon/favicon-32x32.png?v=bOMbqXqrgO" />
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.param.me/assets/favicon/favicon-16x16.png?v=bOMbqXqrgO" />
+<link rel="manifest" href="https://www.param.me/manifest.json" />
+<link rel="mask-icon" href="https://www.param.me/assets/favicon/safari-pinned-tab.svg?v=bOMbqXqrgO" color="#5bbad5" />
+<link rel="shortcut icon" href="https://www.param.me/assets/favicon/favicon.ico?v=bOMbqXqrgO" />
+<meta name="msapplication-TileColor" content="#e68b8b" />
+<meta name="msapplication-config" content="https://www.param.me/assets/favicon/browserconfig.xml?v=bOMbqXqrgO" />
+<meta name="theme-color" content="#932524" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
+
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+  crossorigin="anonymous"
+/>
+
+<link rel="stylesheet" href="/styles/style.css" />
+
+<link rel="stylesheet" href="/styles/background.css" />
+
+  </head>
+
+  <body>
+    <div class="main">
+      <img class="animate__animated animate__jackInTheBox" src="assets/profile-picture.png" />
+
+      <h1 class="title animate__animated animate__bounceIn delay-500">Param Thakkar</h1>
+
+      <p class="subtitle animate__animated animate__bounceIn delay-750">An aspiring software engineer</p>
+    </div>
+
+    <div class="folder slideUp">
+      <div
+        class="tab"
+        id="tab1"
+        onmouseenter="moveUp(this, '#card1');"
+        onmouseleave="moveDown(this, '#card1');"
+        onclick="switchTab(this, '#card1');"
+      >
+        <i class="fas fa-address-card"></i> About
+      </div>
+
+      <div
+        class="tab"
+        id="tab2"
+        onmouseenter="moveUp(this, '#card2');"
+        onmouseleave="moveDown(this, '#card2');"
+        onclick="switchTab(this, '#card2');"
+      >
+        <i class="fas fa-briefcase"></i> Projects
+      </div>
+
+      <div
+        class="tab"
+        id="tab3"
+        onmouseenter="moveUp(this, '#card3');"
+        onmouseleave="moveDown(this, '#card3');"
+        onclick="switchTab(this, '#card3');"
+      >
+        <i class="fas fa-history"></i> Timeline
+      </div>
+
+      <div
+        class="tab"
+        id="tab4"
+        onmouseenter="moveUp(this, '#card4');"
+        onmouseleave="moveDown(this, '#card4');"
+        onclick="switchTab(this, '#card4');"
+      >
+        <i class="fas fa-ellipsis-v"></i> <span class="more-stuff">More</span>
+      </div>
+    </div>
+
+    <div
+      class="card slideUp active aboutme"
+      id="card1"
+      onmouseenter="moveUp(this, '#tab1');"
+      onmouseleave="moveDown(this, '#tab1');"
+    >
+      <div>
+        <h2>Hi there 👋</h2>
+        <p>Here's a bit about me:</p>
+        <p>
+          I'm a first year student studying CS @ Waterloo. I like to design and code websites, apps, bots, games, and
+          everything in between! This website is kinda like my personal showcase, so feel free to check out my stuff out
+          or find me here:
+        </p>
+        <div class="links">
+          <a title="GitHub" rel="noopener" class="icon" style="--text: ' GitHub'"href="https://github.com/paramt">
+            <i class="fab fa-github"></i>
+          </a>
+          <a title="Email" class="icon" style="--text: ' Email'"href="mailto:contact@param.me">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a title="LinkedIn" rel="noopener" class="icon" style="--text: ' LinkedIn'"href="https://www.linkedin.com/in/paramt">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a title="Reddit" rel="noopener" class="icon" style="--text: ' Reddit'"href="https://reddit.com/u/hypnotic-hippo">
+            <i class="fab fa-reddit"></i>
+          </a>
+          <a title="Instagram" rel="noopener" class="icon" style="--text: ' Instagram'"href="https://www.instagram.com/xparam">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a title="Discord" rel="noopener" class="icon" style="--text: ' Discord'"href="https://discord.com/users/422072307146686464">
+            <i class="fab fa-discord"></i>
+          </a>
+        </div>
+
+        <br />
+
+        <p class="status-header">Live status <i>Last updated: <span id="last-updated">Loading...</span></i></p>
+        <div class="status">
+          <p>💼 Currently working on: TweetRacer</p>
+          <p>🎵 Current favourite song: <a href="https://www.youtube.com/watch?v=xmr8bEuyQjA">Kokomo</a></p>
+          <p>📺 Currently watching: Breaking Bad</p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="card slideUp projects"
+      id="card2"
+      onmouseenter="moveUp(this, '#tab2');"
+      onmouseleave="moveDown(this, '#tab2');"
+    >
+      <h2>Projects</h2>
+      <p>
+        These are some of the side projects I've worked on in my free time.
+        <a href="https://github.com/paramt">Check out my GitHub</a> for the full list!
+      </p>
+
+      
+      <div class="project">
+        <div class="content" style="background-color: #2e2f4a">
+          <h3>1pt URL Shortener</h3>
+          <p>A simple-to-use URL shortener with protection against malicious redirects</p>
+        </div>
+
+        <div class="buttons">
+          <a href="https://1pt.co/" style="background-color: #2e2f4a"> Visit </a>
+          <a href="https://github.com/1pt-co/1pt" style="background-color: #2e2f4a"> GitHub </a>
+        </div>
+      </div>
+      
+      <div class="project">
+        <div class="content" style="background-color: #055d9c">
+          <h3>Meme Adviser</h3>
+          <p>A Reddit bot that analyzes the stock market at r/MemeEconomy</p>
+        </div>
+
+        <div class="buttons">
+          <a href="https://www.param.me/MemeAdviser/" style="background-color: #055d9c"> Visit </a>
+          <a href="https://github.com/paramt/MemeAdviser" style="background-color: #055d9c"> GitHub </a>
+        </div>
+      </div>
+      
+      <div class="project">
+        <div class="content" style="background-color: #9c0f05">
+          <h3>Videocloud</h3>
+          <p>A command-line-interface that generates word clouds from YouTube videos</p>
+        </div>
+
+        <div class="buttons">
+          <a href="https://www.param.me/videocloud/" style="background-color: #9c0f05"> Visit </a>
+          <a href="https://github.com/paramt/projects" style="background-color: #9c0f05"> GitHub </a>
+        </div>
+      </div>
+      
+      <div class="project">
+        <div class="content" style="background-color: #220742">
+          <h3>Better Markus</h3>
+          <p>A chrome extension that improves the MarkUs UI</p>
+        </div>
+
+        <div class="buttons">
+          <a href="https://chrome.google.com/webstore/detail/better-markus/oapkghgnkfpcejifjhgdnloianjfgpmo?hl=en-US&authuser=0" style="background-color: #220742"> Visit </a>
+          <a href="https://github.com/paramt/better-markus" style="background-color: #220742"> GitHub </a>
+        </div>
+      </div>
+      
+      <div class="project">
+        <div class="content" style="background-color: #c40021">
+          <h3>Auto Covid Screening</h3>
+          <p>A bookmarklet that automates your daily Ontario covid screening</p>
+        </div>
+
+        <div class="buttons">
+          <a href="https://www.param.me/automate-covid-screening/" style="background-color: #c40021"> Visit </a>
+          <a href="https://github.com/paramt/automate-covid-screening" style="background-color: #c40021"> GitHub </a>
+        </div>
+      </div>
+      
+      <div class="project">
+        <div class="content" style="background-color: #9c6505">
+          <h3>Q4T</h3>
+          <p>A Telegram bot that posts scheduled quizzes using a list of questions from Google Sheets</p>
+        </div>
+
+        <div class="buttons">
+          <a href="https://github.com/paramt/q4t" style="background-color: #9c6505"> Visit </a>
+          <a href="https://github.com/paramt/q4t" style="background-color: #9c6505"> GitHub </a>
+        </div>
+      </div>
+      
+      <div class="project">
+        <div class="content" style="background-color: #6c059c">
+          <h3>Discord Emoji</h3>
+          <p>A convenient tool to convert text into emoji markup that Discord understands</p>
+        </div>
+
+        <div class="buttons">
+          <a href="https://www.param.me/discord-emoji" style="background-color: #6c059c"> Visit </a>
+          <a href="https://github.com/paramt/discord-emoji" style="background-color: #6c059c"> GitHub </a>
+        </div>
+      </div>
+      
+      <div class="project">
+        <div class="content" style="background-color: #9c0549">
+          <h3>URL Checker</h3>
+          <p>A GitHub action that tests markdown files for broken links</p>
+        </div>
+
+        <div class="buttons">
+          <a href="https://github.com/marketplace/actions/url-checker" style="background-color: #9c0549"> Visit </a>
+          <a href="https://github.com/paramt/url-checker" style="background-color: #9c0549"> GitHub </a>
+        </div>
+      </div>
+      
+      <div class="project">
+        <div class="content" style="background-color: #036e59">
+          <h3>Trackarma</h3>
+          <p>A python script that tracks and graphs a Reddit user's karma over time</p>
+        </div>
+
+        <div class="buttons">
+          <a href="https://www.param.me/trackarma" style="background-color: #036e59"> Visit </a>
+          <a href="https://github.com/paramt/trackarma" style="background-color: #036e59"> GitHub </a>
+        </div>
+      </div>
+      
+      <div class="project">
+        <div class="content" style="background-color: #15036e">
+          <h3>Email Status</h3>
+          <p>A site that validates whether a given email address exists, as well as if it's disposable or not</p>
+        </div>
+
+        <div class="buttons">
+          <a href="https://www.param.me/email-status" style="background-color: #15036e"> Visit </a>
+          <a href="https://github.com/paramt/email-status" style="background-color: #15036e"> GitHub </a>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="card slideUp timelineCard" id="card3" onmouseenter="moveUp(this, '#tab3');" onmouseleave="moveDown(this, '#tab3');">
+      <h2>Timeline</h2>
+      <p>A microblog of cool things I've done</p>
+
+      <div class="timeline">
+      
+       
+        <div class="tcontainer left">
+          <div class="tcontent">
+            <h3>TC Disrupt</h3>
+            <p class="light">September 2023</p>
+            <p><p>Attended <a href="https://techcrunch.com/events/tc-disrupt-2023/">TechCrunch Disrupt 2023</a></p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+        <div class="tcontainer right">
+          <div class="tcontent">
+            <h3>HackMIT</h3>
+            <p class="light">September 2023</p>
+            <p><p>Attended HackMIT</p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+        <div class="tcontainer left">
+          <div class="tcontent">
+            <h3>Parasailing</h3>
+            <p class="light">July 2023</p>
+            <p><p>Went parasailing!</p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+        <div class="tcontainer right">
+          <div class="tcontent">
+            <h3>Collision</h3>
+            <p class="light">June 2023</p>
+            <p><p>Attended the Collision startup conference</p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+        <div class="tcontainer left">
+          <div class="tcontent">
+            <h3>Judge @ JAMHacks</h3>
+            <p class="light">June 2023</p>
+            <p><p>Judged at <a href="https://www.jamhacks.ca/">JAMHacks 7</a></p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+        <div class="tcontainer right">
+          <div class="tcontent">
+            <h3>SWE Intern @ zipBoard</h3>
+            <p class="light">May 2023</p>
+            <p><p><a href="https://zipboard.co/blog/uncategorized/software-dev-intern-param-thakkar/">Started my software engineer internship at zipBoard</a></p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+        <div class="tcontainer left">
+          <div class="tcontent">
+            <h3>Judge @ hack::peel</h3>
+            <p class="light">December 2022</p>
+            <p><p>Was a hackathon judge for <a href="https://hackpeel22.devpost.com/">hack::peel</a></p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+        <div class="tcontainer right">
+          <div class="tcontent">
+            <h3>SWE Intern @ Pulley</h3>
+            <p class="light">July 2022</p>
+            <p><p>Started my software engineer internship at <a href="https://pulley.com">Pulley</a>, a Series A Y-Combinator startup based in San Francisco</p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+      
+       
+      
+       
+        <div class="tcontainer left">
+          <div class="tcontent">
+            <h3>Schulich Leader Scholarship</h3>
+            <p class="light">May 2022</p>
+            <p><p>Offered the Schulich Leader Scholarship (valued at $100,000) from the University of Toronto</p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+      
+       
+      
+       
+      
+       
+        <div class="tcontainer right">
+          <div class="tcontent">
+            <h3>Coder Cookies</h3>
+            <p class="light">August 2021</p>
+            <p><p>Became a Code Coach at <a href="https://codercookies.com/">Coder Cookies</a></p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+        <div class="tcontainer left">
+          <div class="tcontent">
+            <h3>Skydiving</h3>
+            <p class="light">August 2021</p>
+            <p><p><a href="https://www.instagram.com/p/CTHqUuvMUoF9PGuVPHiP48FDi5VwEE77PUIhcM0/">I went skydiving</a>!</p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+        <div class="tcontainer right">
+          <div class="tcontent">
+            <h3>Shad</h3>
+            <p class="light">July 2021</p>
+            <p><p>Completed the <a href="https://www.shad.ca/">Shad program</a> virtually at the York University campus</p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+      
+       
+        <div class="tcontainer left">
+          <div class="tcontent">
+            <h3>Lighthouse Hacks</h3>
+            <p class="light">April 2021</p>
+            <p><p>Organized <a href="https://lighthousehacks.ca/">Lighthouse Hacks</a> - a virtual hackathon with over 200 participants from 10 countries</p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+      
+       
+        <div class="tcontainer right">
+          <div class="tcontent">
+            <h3>Coding Club</h3>
+            <p class="light">October 2020</p>
+            <p><p>Started an online coding club at my school</p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+        <div class="tcontainer left">
+          <div class="tcontent">
+            <h3>Canada Learning Code Ambassador</h3>
+            <p class="light">September 2020</p>
+            <p><p>Became a Teen Ambassador for <a href="https://www.canadalearningcode.ca/">Canada Learning Code</a></p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+        <div class="tcontainer right">
+          <div class="tcontent">
+            <h3>AP Computer Science Exam</h3>
+            <p class="light">July 2020</p>
+            <p><p>Recieved the highest possible score of 5 on the AP Computer Science A Exam</p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+      
+       
+        <div class="tcontainer left">
+          <div class="tcontent">
+            <h3>CANHack Mentor</h3>
+            <p class="light">July 2020</p>
+            <p><p>Mentored at Brampton Library’s virtual hackathon</p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+        <div class="tcontainer right">
+          <div class="tcontent">
+            <h3>Skills Ontario</h3>
+            <p class="light">June 2020</p>
+            <p><p>Represented Peel District School Board at the Virtual Skills Ontario coding competition</p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+      
+       
+      
+       
+      
+       
+        <div class="tcontainer left">
+          <div class="tcontent">
+            <h3>Hack the North</h3>
+            <p class="light">September 2019</p>
+            <p><p>Attended <a href="https://hackthenorth.com/">Canada’s largest hackathon</a> held at the University of Waterloo</p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+      
+       
+        <div class="tcontainer right">
+          <div class="tcontent">
+            <h3>100 Days of Running</h3>
+            <p class="light">May 2019</p>
+            <p><p>Completed the <a href="https://hdor.com/100-days-of-running/">100 Days of Running challenge</a> and received a platinum medal</p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+        <div class="tcontainer left">
+          <div class="tcontent">
+            <h3>3rd Place at Startup Weekend</h3>
+            <p class="light">November 2018</p>
+            <p><p>Presented StoAR at the 54-hour TechStars Startup Weekend. The demo was pitched to a panel of judges, including an investor from Dragon’s Den, and received third place</p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+        <div class="tcontainer right">
+          <div class="tcontent">
+            <h3>First Place Pitch at Hackathon</h3>
+            <p class="light">September 2018</p>
+            <p><p>Came first for pitching <a href="https://mathu.cf">Mathu</a> at the 24-hour Imagine Hackathon in Brampton</p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+        <div class="tcontainer left">
+          <div class="tcontent">
+            <h3>Basic Aviation</h3>
+            <p class="light">August 2018</p>
+            <p><p>Successfully completed a 3-week summer training course at CFB Trenton as a cadet in the Aviation Wing</p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+        <div class="tcontainer right">
+          <div class="tcontent">
+            <h3>First Place in Gauss</h3>
+            <p class="light">May 2017</p>
+            <p><p>Ranked first place from my school <em>Allan A. Martin</em>, for writing the Gauss Math Contest</p>
+</p>
+          </div>
+        </div>
+        
+      
+       
+        <div class="tcontainer left">
+          <div class="tcontent">
+            <h3>App of the Month</h3>
+            <p class="light">January 2017</p>
+            <p><p>Received the <a href="https://web.archive.org/web/20170204071134/http://appinventor.mit.edu/explore/app-month-gallery.html">Most Creative App of the Month</a> from MIT App Inventor for my app <a href="https://go.param.me/spellbind">Spellbind</a></p>
+</p>
+          </div>
+        </div>
+        
+      
+      </div>
+    </div>
+
+    <div class="card slideUp more" id="card4" onmouseenter="moveUp(this, '#tab4');" onmouseleave="moveDown(this, '#tab4');">
+      <h2>More</h2>
+      <p>I'm planning to add more stuff here. In the meantime <a href="resume">here's my resume</a>.</p>
+      <p><a href="/certificates">Certificates</a> | <a href="/assignments">School projects</a></p>
+      <h3>Cool links</h3>
+      <p>A running list of websites or projects that I think are cool</p>
+
+      
+        <a href="https://jeonghopark.github.io/scanseqjs/" target="_blank" class="links">ScanSeq</a>
+      
+        <a href="https://neal.fun/" target="_blank" class="links">Neal.fun</a>
+      
+        <a href="https://thetruesize.com/" target="_blank" class="links">The True Size</a>
+      
+        <a href="http://gaugan.org/gaugan2/" target="_blank" class="links">NVIDIA GauGAN</a>
+      
+        <a href="https://www.jasondavies.com/maps/voronoi/airports/" target="_blank" class="links">World Airports Voronoi</a>
+      
+        <a href="https://www.blockworks.uk/the-uncensored-library" target="_blank" class="links">The Uncensored Library</a>
+      
+        <a href="https://libraryofbabel.info/" target="_blank" class="links">Library of Babel</a>
+      
+        <a href="http://hacks.mit.edu/" target="_blank" class="links">MIT Hacks</a>
+      
+        <a href="https://www.nand2tetris.org/" target="_blank" class="links">Nand to Tetris</a>
+      
+        <a href="https://playgameoflife.com/" target="_blank" class="links">Conway's Game of Life</a>
+      
+        <a href="http://about.bitty.site/" target="_blank" class="links">Itty.bitty</a>
+      
+        <a href="https://keiwan.itch.io/evolution" target="_blank" class="links">Evolution</a>
+      
+        <a href="https://sprocketfox.io/xssfox/2021/12/02/xrandr/" target="_blank" class="links">Ideal monitor rotation</a>
+      
+        <a href="https://essenmitsosse.de/pixel/" target="_blank" class="links">Responsive pixel art</a>
+      
+        <a href="https://www.youtube.com/watch?v=FDiapbD0Xfg" target="_blank" class="links">Minecraft computer</a>
+      
+        <a href="https://www.youtube.com/watch?v=4_8eY_Ij-5k" target="_blank" class="links">Desmos art</a>
+      
+        <a href="https://driveandlisten.herokuapp.com/" target="_blank" class="links">Drive & Listen</a>
+      
+        <a href="https://www.sec.gov/Archives/edgar/data/1018724/000119312516530910/d168744dex991.htm" target="_blank" class="links">Two-way door decisions</a>
+      
+        <a href="http://www.paulgraham.com/makersschedule.html" target="_blank" class="links">Maker's schedule</a>
+      
+        <a href="https://issuedetector.com/" target="_blank" class="links">Issue Detector</a>
+      
+        <a href="https://www.internetisbeautiful.co/" target="_blank" class="links">Internet Is Beautiful</a>
+      
+        <a href="https://whats.new/" target="_blank" class="links">whats.new</a>
+      
+        <a href="https://input-delay.glitch.me/" target="_blank" class="links">input delay</a>
+      
+    </div>
+
+    <script defer type="text/javascript" src="scripts/script.js"></script>
+  </body>
+</html>
